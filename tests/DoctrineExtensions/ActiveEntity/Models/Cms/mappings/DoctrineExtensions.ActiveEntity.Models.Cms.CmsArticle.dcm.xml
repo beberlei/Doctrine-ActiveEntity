@@ -1,0 +1,10 @@
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+     <entity name="DoctrineExtensions\ActiveEntity\Models\Cms\CmsArticle" table="cms_article">
+         <id name="id" type="integer">
+             <generator strategy="AUTO" />
+         </id>
+
+         <field name="topic" type="string" />
+         <field name="text" type="text" />
+     </entity>
+</doctrine-mapping>

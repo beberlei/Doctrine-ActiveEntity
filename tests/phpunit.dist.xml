@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="DoctrineExtensions/ActiveEntity/Tests/TestInit.php">
+    <php>
+        <var name="DOCTRINE2_PATH" value="" />
+    </php>
+</phpunit>
